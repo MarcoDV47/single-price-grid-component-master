@@ -1,14 +1,11 @@
-@media (min-width: 374px) {
-    div.container {
-        max-width: 100vw;
-    }
+@media (min-width: 23.375em) {
 
     section.card.pricing a {
         padding: 1em 6.5em;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48em) {
     div.container {
         grid-template: 13.5em 16em / repeat(2, 1fr);
         max-width: 40em;
