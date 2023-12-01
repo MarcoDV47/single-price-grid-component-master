@@ -1,0 +1,49 @@
+@media (min-width: 374px) {
+    div.container {
+        max-width: 100vw;
+    }
+
+    section.card.pricing a {
+        padding: 1em 6.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    div.container {
+        grid-template: 13.5em 16em / repeat(2, 1fr);
+        max-width: 40em;
+        max-height: 50em;
+    }
+    section.card{
+        padding: 2.5em;
+    }
+    section.card.join-us{
+        grid-column-start: span 2;
+    }
+    section.card.join-us h1 {
+        font-size: 1.5em;
+        margin-bottom: 1.2em;
+    }
+    section.card.join-us h2 {
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+    section.card.join-us p {
+        font-size: 1em;
+    }
+    section.card.pricing{
+        border-radius: 0 0 0 5px;
+    }
+    section.card.pricing a {
+        padding: 0.9em 5.7em;
+    }
+    section.card.why-us {
+        border-radius: 0  0 5px;
+    }
+    section.card.why-us li {
+        font-size: 0.9em;
+        margin-bottom: 0.3em;
+        font-weight: 100;
+        color: var(--white);
+    }
+}
